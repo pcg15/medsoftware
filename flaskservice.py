@@ -28,7 +28,6 @@ def distance():
     Returns the distance between two cartesian points
     """
     r = request.get_json()
-    print(r)
     a = r["a"]
     b = r["b"]
     s = math.hypot(a[1]-a[0],b[1]-b[0])
